@@ -1,6 +1,4 @@
-# Detection_Using_Thermal-Imagery
-
-# PEDESTRIAN DETECTION USING THERMAL IMAGERY: 
+# PEDESTRIAN/ ANIMAL/ POTHOLE DETECTION USING THERMAL IMAGERY: 
 This project aims at development of smart traffic lights for both efficient traffic management and pedestrians safety. In this project thermal camera is placed at traffic lights and the live feed is send to our server. On our server the pedestrians are detected and a count is generated.
 If the count is greater than a set threshold,the traffic LED will be switched on/off accordingly. 
 
