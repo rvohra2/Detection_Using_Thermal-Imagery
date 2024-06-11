@@ -1,0 +1,12 @@
+#php script for transfer of images from android studio to thermal_data folder
+<?php 
+	$file_path = "./thermal_data/"; #points to thermal_data directory
+    $file_path = $file_path . basename( $_FILES['uploaded_file']['name']); #from android studio uploaded_file is sent to the thermal_data directory
+    if(move_uploaded_file($_FILES['uploaded_file']['tmp_name'], $file_path)) # check if the uploaded_file is present in the file path
+	{
+        #$pyscript = 'C:\\wamp64\\www\\PythonScripts\\detect.py';
+	#$python = 'C:\\Python27\\python.exe';
+	#$cmd = "python detect.py --images images";
+	#exec($cmd, $output);
+    }
+?>
